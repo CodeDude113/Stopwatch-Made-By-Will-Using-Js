@@ -1,0 +1,72 @@
+.main {
+    text-align: center;
+    font-family: digitalClock;
+    font-size: 100px;
+}
+
+.btnStart {
+    width: 250px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    border-radius: 50px;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: lightgreen;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
+}
+
+.btnReset {
+    width: 250px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    border-radius: 50px;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btnStop {
+    width: 250px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    border-radius: 50px;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: orangered;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-75%, -50%);
+}
+
+.btnStart:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btnReset:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btnStop:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@font-face {
+    font-family: digitalClock;
+    src: url(digital-7.ttf);
+}
+
+.credit {
+    position: absolute;
+    top: 100%;
+}
